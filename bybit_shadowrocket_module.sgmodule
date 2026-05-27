@@ -1,0 +1,33 @@
+#!name=Bybit 交易所
+#!desc=Bybit 交易所分流规则集
+#!system=ios,macos
+#!argument=select-policy-group-name:PROXY
+
+[Rule]
+# Bybit 交易所域名
+DOMAIN,bybit-exchange.github.io,Bybit
+DOMAIN,app-measurement.com,Bybit
+DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com,Bybit
+DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de,Bybit
+DOMAIN-SUFFIX,amazon.com,Bybit
+DOMAIN-SUFFIX,amazonaws.com,Bybit
+DOMAIN-SUFFIX,bybit.biz,Bybit
+DOMAIN-SUFFIX,bybit.com,Bybit
+DOMAIN-SUFFIX,bycsi.com,Bybit
+DOMAIN-SUFFIX,bytick.com,Bybit
+DOMAIN-SUFFIX,byapis.com,Bybit
+DOMAIN-SUFFIX,bycbe.com,Bybit
+DOMAIN-SUFFIX,bymj.io,Bybit
+DOMAIN-SUFFIX,byabcde.com,Bybit
+DOMAIN-SUFFIX,byapps.net,Bybit
+DOMAIN-SUFFIX,byd3c3.com,Bybit
+DOMAIN-SUFFIX,bybdc6.com,Bybit
+DOMAIN-SUFFIX,appsflyer.com,Bybit
+# Bybit 交易所 IP
+IP-CIDR,13.32.121.6/32,Bybit,no-resolve
+IP-CIDR,43.133.238.145/32,Bybit,no-resolve
+IP-CIDR,13.33.187.108/32,Bybit,no-resolve
+IP-CIDR,150.109.230.182/32,Bybit,no-resolve
+IP-CIDR,142.251.215.234/32,Bybit,no-resolve
+IP-CIDR,43.133.241.84/32,Bybit,no-resolve
+IP-CIDR,3.160.150.37/32,Bybit,no-resolve
